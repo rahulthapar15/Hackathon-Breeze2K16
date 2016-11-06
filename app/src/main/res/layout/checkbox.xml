@@ -1,0 +1,9 @@
+<android.support.v7.widget.AppCompatCheckBox  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:text="hello"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:button="@null"
+    android:padding="12dp"
+    app:buttonTint="@color/white"
+    android:drawableRight="?android:attr/listChoiceIndicatorMultiple" />

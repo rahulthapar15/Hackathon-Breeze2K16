@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="vertical"
+              tools:context=".activities.ColorBlindness">
+
+    <include
+        android:id="@+id/toolbar_settings"
+        layout="@layout/toolbar" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text=""
+        android:id="@+id/test_result"
+        android:layout_weight="0.39"
+        android:textSize="24dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:splitMotionEvents="false"
+        android:weightSum="1">
+
+     <!--   <Button
+            android:id="@+id/button6"
+            android:layout_width="0dp"
+            android:background="@drawable/button_bg_blue"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="@dimen/button_min_height"
+            android:layout_margin="10dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:onClick="onPrint"
+            android:text="@string/print" />-->
+
+        <Button
+            android:id="@+id/button7"
+            android:background="@drawable/button_bg_blue"
+            android:layout_width="5dp"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:minHeight="@dimen/button_min_height"
+            android:layout_margin="10dp"
+            android:onClick="onDownload"
+            android:text="@string/download" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="340dp"
+        android:layout_height="62dp"
+        android:text="return"
+        android:id="@+id/button"
+        android:onClick="home"
+        style="?android:attr/borderlessButtonStyle"
+        android:background="@drawable/button_bg_blue"
+        android:layout_margin="14dp"
+        android:textSize="22dp"
+        android:textColor="@android:color/white" />
+
+
+
+</LinearLayout>

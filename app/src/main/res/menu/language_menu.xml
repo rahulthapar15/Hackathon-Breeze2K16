@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Color Blindness"
+        android:id="@+id/eye"
+        android:icon="@drawable/eye"
+        android:showAsAction="ifRoom"/>
+    <item
+        android:title="Setting"
+        android:id="@+id/lang_change"
+        android:icon="@drawable/settings"
+        android:showAsAction="ifRoom"/>
+    <item
+        android:title="Logout"
+        android:id="@+id/logout"
+        />
+</menu>

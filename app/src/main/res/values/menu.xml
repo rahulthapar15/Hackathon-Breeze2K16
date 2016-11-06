@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+        <item
+            android:id="@+id/item_movies"
+            android:showAsAction="ifRoom|withText"
+            android:title="Noida"
+            android:visible="true"/>
+        <item
+            android:id="@+id/item_music"
+            android:showAsAction="ifRoom|withText"
+            android:title="Kanpur"
+            android:visible="true"/>
+        <item
+            android:id="@+id/item_comedy"
+            android:showAsAction="ifRoom|withText"
+            android:title="Patna"
+            android:visible="true"/>
+
+    </menu>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fitsSystemWindows="true"
+    android:id="@+id/main_relative_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/startingBackgroundColor"
+    tools:context="su.levenetc.android.textsurface.sample.LoginActivity">
+
+
+    <at.markushi.ui.RevealColorView
+        android:id="@+id/reveal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/startingBackgroundColor"/>
+
+
+
+    <!--<ImageButton
+        android:id="@+id/scene_transition_between_elements_go_button_and_login_register_tile"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:background="@drawable/circle"
+        android:elevation="5dp"
+        android:layout_above="@+id/dummy_view_for_revealing_animation"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="203dp" />-->
+
+    <View
+        android:id="@+id/dummy_view_for_revealing_animation"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:visibility="invisible"
+        android:background="@color/startingBackgroundColor"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

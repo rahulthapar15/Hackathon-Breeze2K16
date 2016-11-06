@@ -1,0 +1,253 @@
+<resources>
+    <string name="app_name">FirstAid</string>
+
+    <string name="hello_world">CARE FOR SHARE</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="title_activity_choose_language">CareForShare</string>
+    <string name="title_activity_registartion">Registration</string>
+
+
+    <string-array name="place_name">
+        <item>Noida</item>
+        <item>Lucknow</item>
+        <item>Patna</item>
+        <item>Jaipur</item>
+    </string-array>
+
+
+
+    <array name="diseases">
+        <item>Fever</item>
+        <item>Pneumonia</item>
+        <item>Headache</item>
+        <item>Body Pain</item>
+        <item>Cough</item>
+        <item>Mouth Ulcer</item>
+        <item>Stomach Infection</item>
+        <item>Throat Infection</item>
+        <item>Body Rashes</item>
+        <item>Allergies</item>
+        <item>Constipation</item>
+    </array>
+
+    <array name="symptoms_fever">
+        <item>Sweating</item>
+        <item>Shivering</item>
+        <item>Headache</item>
+        <item>Muscle aches</item>
+        <item>Loss of appetite</item>
+        <item>Dehydration</item>
+        <item>General weakness</item>
+    </array>
+
+
+    <array name="symptoms_pneumonia">
+        <item>Cough</item>
+        <item>Fever</item>
+        <item>Shaking chills</item>
+        <item>Shortness of breath</item>
+    </array>
+
+    <array name="symptoms_headache">
+        <item>Blurry vision</item>
+        <item>Vomiting</item>
+        <item>Fever</item>
+        <item>Neck pain</item>
+    </array>
+
+
+
+    <array name="symptoms_body_pain">
+        <item>Headaches</item>
+        <item>Fatigue</item>
+        <item>Cough</item>
+        <item>Fever</item>
+        <item>Sore throat</item>
+        <item>Runny nose</item>
+        <item>Body aches</item>
+        <item>Chills</item>
+        <item>Vomiting</item>
+        <item>Diarrhea</item>
+    </array>
+
+
+    <array name="symptoms_cough">
+        <item>Runny nose</item>
+        <item>Stuffy nose</item>
+        <item>Sour taste in mouth</item>
+        <item>Coughing up blood</item>
+        <item>Fever</item>
+    </array>
+
+    <array name="symptoms_mouth_ulcer">
+        <item>Fever</item>
+        <item>Physical sluggishness</item>
+        <item>Sour taste in mouth</item>
+    </array>
+
+
+
+    <array name="symptoms_stomach_infection">
+        <item>Loss of appetite</item>
+        <item>Nausea and vomiting</item>
+        <item>Diarrhea</item>
+        <item>Abdominal pains and cramps</item>
+        <item>Blood in your stools</item>
+        <item>Fever</item>
+    </array>
+
+    <array name="symptoms_throat_infection">
+        <item>Fever</item>
+        <item>Headaches</item>
+        <item>Cough</item>
+        <item>Runny nose</item>
+        <item>Body aches</item>
+    </array>
+
+    <array name="symptoms_body_rashes">
+        <item>Itchiness</item>
+        <item>Skin redness</item>
+        <item>Skin become thick</item>
+        <item>Skin become dry</item>
+    </array>
+
+    <array name="symptoms_allergies">
+        <item>Nasal congestion</item>
+        <item>Itchy and watery eyes</item>
+        <item>Sneezing</item>
+        <item>Stuffy or runny nose</item>
+        <item>Scratchy or sore throat</item>
+        <item>Throat clearing</item>
+    </array>
+    <array name="symptoms_constipation">
+        <item>Few bowel movements</item>
+        <item>Trouble having a bowel movement (straining)</item>
+        <item>Hard or small stools</item>
+        <item>A sense that everything didn’t come out</item>
+        <item>Swollen abdomen or abdominal pain</item>
+        <item>Vomiting</item>
+    </array>
+
+    <string name="fullname">Full Name</string>
+    <string name="age">Age</string>
+    <string name="city">City</string>
+    <string name="address">Address</string>
+    <string name="sex">Sex</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="submit">submit</string>
+
+    <string name="patient_name">Patient Name :</string>
+
+    <string name="header">Please select your disease :</string>
+
+
+    <string name="fill_blank_details">Please fill details</string>
+    <string name="admin">Admin</string>
+
+    <string name="patien_list">patient list</string>
+    <string name="graph">Show Graph</string>
+    <string name="correct_user_name">Please enter correct  Username and Password</string>
+    <string name="login">Login</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+
+    <string name="red_flag_question"> RED FLAG QUESTION</string>
+    <string name="consult">please consult doctor immediately</string>
+    <string name="prescrption">Prescription By Doctor</string>
+
+    <string name="note">Use these medications according to the label instructions or as recommended by your doctor.</string>
+
+    <array name="drug_fever">
+        <item>Acetaminophen</item>
+        <item>ibuprofen</item>
+    </array>
+
+    <array name="drug_pneumonia">
+        <item>Bactrim DS</item>
+        <item>Biaxin</item>
+    </array>
+
+    <array name="drug_headache">
+        <item>ibuprofen</item>
+        <item>Naproxen</item>
+    </array>
+
+    <array name="drug_body_pain">
+        <item>Acetaminophen</item>
+        <item>ibuprofen</item>
+        <item>Naproxen</item>
+    </array>
+
+    <array name="drug_body_cough">
+        <item>Dextromethorphan</item>
+        <item>Pholcodine</item>
+        <item>Guaifenesin</item>
+        <item>Brompheniramine</item>
+        <item>Chlorphenamine</item>
+    </array>
+
+    <string name="print">Print</string>
+    <string name="download">Download</string>
+
+    <string name="sms_emergency_contact">SMS emergency contact</string>
+    <string name="find_ambulance">Find Ambulance</string>
+    <string name="call_emergency_contact">Call emergency contact</string>
+
+    <string name="exit">Exit</string>
+    <string name="day_time">Two times in day</string>
+    <string name="save">Saved</string>
+    <string name="age_error_msg">Select your age</string>
+    <string name="place_error_msg">Please select your place</string>
+    <string name="details_error_msg">Please enter complete details</string>
+    <string name="title_activity_register_patient">Register Patient</string>
+    <string name="title_activity_home">First Aid</string>
+    <string name="title_activity_choose_disease">Choose Disease</string>
+    <string name="title_ativity_second_diagnostic">Second Diagnostic</string>
+    <string name="title_activity_prescription">Prescription</string>
+    <string name="hint_login_user_id">Enter User Id</string>
+    <string name="btn_login">Login</string>
+    <string name="hint_enter_password">Enter Password</string>
+    <string name="validation_message_login">Enter  user id!</string>
+    <string name="validation_login_auth_fail">Authentication Failed</string>
+    <string name="msg_progress_dialog">Please Wait!</string>
+
+
+
+    <string name="Batra">Dr. Batraा</string>
+    <string name="Batra_add">Delhi</string>
+    <string name="Batra_qua">BHMS</string>
+
+    <string name="PuneetRajput">Dr. Puneet Rajput</string>
+    <string name="PuneetRajput_add">Delhi</string>
+    <string name="PuneetRajpu_qua1">MBBS</string>
+    <string name="Puneetrajput_qua2">DNB</string>
+
+    <string name="AnilKochar">Dr. Anil Kochar</string>
+    <string name="AnilKochar_add">Faridabad</string>
+    <string name="AnilKochar_qua1">BDS</string>
+
+
+    <string name="DKChhabra">Dr. DK Chhabra़ा</string>
+    <string name="DKChhabra_add">Raipur</string>
+    <string name="DKChhabra_qua1">MBBS</string>
+    <string name="DKChhabra_qua2">MS_Neuro Surgery</string>
+
+
+    <string name="AkhilAgarwal">Dr. Akhil Agarwalल</string>
+    <string name="AkhilAgarwal_add">Lucknow</string>
+    <string name="AkhilAgarwal_qua1">BDS</string>
+    <string name="AkhilAgarwal_qua2">MDS</string>
+
+
+    <string name="RitwizBihari">Ritwiz Bihari</string>
+    <string name="RitwizBihari_add">Patna</string>
+    <string name="RitwizBihari_qua1">MBBS</string>
+    <string name="RitwizBihari_qua2">MD</string>
+    <string name="RitwizBihari_qua3">DM - Neurology</string>
+    <string name="qty">"Quantity"</string>
+    <string name="doctor">Doctor</string>
+
+
+</resources>

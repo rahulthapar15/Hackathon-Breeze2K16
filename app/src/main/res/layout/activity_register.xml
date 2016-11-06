@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.base.RegisterActivity">
+
+    <include
+        android:id="@+id/toolbar_settings"
+        layout="@layout/toolbar" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/editText_name"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_margin="15dp"
+                android:ems="10"
+                android:hint="@string/fullname"
+                android:maxLength="100"
+                android:maxLines="1"
+                android:inputType="textPersonName"
+                android:textColorHint="@color/black"
+                android:textSize="20dp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/editText_age"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_margin="15dp"
+                android:ems="10"
+                android:hint="@string/age"
+                android:maxLength="3"
+                android:inputType="number"
+                android:textColorHint="@color/black"
+                android:textSize="20dp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="@string/sex"
+            android:textColor="@color/gray"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+             />
+
+        <RadioGroup
+            android:id="@+id/myRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text"
+            android:layout_margin="15dp"
+            android:checkedButton="@+id/sound"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/sound"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:checked="false"
+                android:text="@string/male"
+                android:textColor="@color/gray"
+                android:textSize="20dp" />
+
+            <RadioButton
+                android:id="@+id/vibration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:checked="false"
+                android:text="@string/female"
+                android:textColor="@color/gray"
+                android:textSize="20dp" />
+
+
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/editText_address"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/edittext_border_shape"
+            android:ems="10"
+            android:gravity="top"
+            android:hint="@string/address"
+            android:maxLength="200"
+            android:padding="15dp"
+            android:textColorHint="@color/gray"
+            android:textSize="20dp" />
+
+        <Button
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:background="@drawable/button_bg_blue"
+            android:minHeight="@dimen/button_min_height"
+            android:onClick="onRegisterTap"
+            android:text="@string/submit"
+            android:textSize="22dp"
+            android:textColor="@android:color/white"
+            android:id="@+id/button2"
+            android:layout_weight="0.05"/>
+
+    </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

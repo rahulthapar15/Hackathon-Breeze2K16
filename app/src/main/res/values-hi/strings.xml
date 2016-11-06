@@ -1,0 +1,220 @@
+<resources>
+    <string name="app_name">FirstAid</string>
+
+    <string name="hello_world">CARE FOR SHARE</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="title_activity_registartion">पंजीकरण</string>
+
+
+
+    <string name="fullname">पूरा नाम</string>
+    <string name="age">आयु</string>
+    <string name="city">शहर</string>
+    <string name="address">पता</string>
+    <string name="sex">लिंग</string>
+    <string name="submit">प्रस्तुत करना</string>
+    <string name="mobile">मोबाइल नंबर</string>
+
+    <array name="symptoms_constipation">
+        <item>कुछ मल त्याग</item>
+        <item>मुसीबत एक मल त्याग करने (तनाव)</item>
+        <item>हार्ड या छोटे बच्चे के मल</item>
+        <item>सब कुछ बाहर नहीं आया था कि एक भावना</item>
+        <item>सूजन पेट या पेट में दर्द</item>
+        <item>उल्टी</item>
+    </array>
+
+    <array name="symptoms_allergies">
+        <item>नाक बंद</item>
+        <item>खुजली और पानी आँखें</item>
+        <item>छींकने</item>
+        <item>घुटन या नाक बह रही है</item>
+        <item>लापरवाही या गले में खराश</item>
+        <item>गले समाशोधन</item>
+    </array>
+    <array name="symptoms_throat_infection">
+        <item>बुखार</item>
+        <item>सिरदर्द</item>
+        <item>खांसी</item>
+        <item>बहती हुई नाक</item>
+        <item>शरीर में दर्द</item>
+    </array>
+    <array name="symptoms_body_rashes">
+        <item>खुजली</item>
+        <item>त्वचा की लालिमा</item>
+        <item>त्वचा मोटी हो</item>
+        <item>त्वचा शुष्क होैं</item>
+    </array>
+    <array name="symptoms_stomach_infection">
+        <item>भूख में कमी</item>
+        <item>मतली और उल्टी</item>
+        <item>दस्त</item>
+        <item>पेट में दर्द और ऐंठन</item>
+        <item>अपने बच्चे के मल में खून</item>
+        <item>बुखार</item>
+    </array>
+    <array name="symptoms_mouth_ulcer">
+        <item>बुखार</item>
+        <item>शारीरिक सुस्ती</item>
+        <item>मुंह में खट्टे स्वाद</item>
+    </array>
+
+    <array name="symptoms_cough">
+        <item>बहती हुई नाक</item>
+        <item>भरी हुई नाक</item>
+        <item>मुंह में खट्टे स्वाद</item>
+        <item>बुखार</item>
+        <item>खून खाँसी</item>
+    </array>
+    <array name="symptoms_body_pain">
+        <item>सिरदर्द</item>
+        <item>थकान</item>
+        <item>खांसी</item>
+        <item>बुखार</item>
+        <item>गले में खराश</item>
+        <item>बहती हुई नाक</item>
+        <item>शरीर में दर्द</item>
+        <item>ठंड से कंपकपी</item>
+        <item>उल्टी</item>
+        <item>दस्त</item>
+    </array>
+    <array name="diseases">
+        <item>बुखार</item>
+        <item>निमोनिया</item>
+        <item>सिरदर्द</item>
+        <item>शरीर में दर्द</item>
+        <item>खांसी</item>
+        <item>मुँह में छाला</item>
+        <item>पेट संक्रमण</item>
+        <item>गले का संक्रमण</item>
+        <item>शरीर पर चकत्ते</item>
+        <item>एलर्जी</item>
+        <item>कब्ज</item>
+    </array>
+    <array name="symptoms_fever">
+        <item>पसीना</item>
+        <item>कांप</item>
+        <item>सिरदर्द</item>
+        <item>मांसपेशियों के दर्द</item>
+        <item>भूख में कमी</item>
+        <item>निर्जलीकरण</item>
+        <item>सामान्य कमज़ोरी</item>
+    </array>
+    <array name="symptoms_pneumonia">
+        <item>खांसी</item>
+        <item>बुखार</item>
+        <item>ठंड से कंपकपी</item>
+        <item>साँसों की कमी</item>
+    </array>
+    <array name="symptoms_headache">
+        <item>धुंधली दृष्ट</item>
+        <item>उल्टी</item>
+        <item>बुखार</item>
+        <item>गर्दन दर्द</item>
+    </array>
+
+    <string name="patient_name">रोगी नाम :</string>
+
+    <string name="header">अपने रोग का चयन करें :</string>
+
+    <string name="fill_blank_details">विवरण भरें</string>
+
+    <string name="admin">व्यवस्थापक</string>
+
+    <string name="patien_list">रोगी सूची</string>
+    <string name="graph">ग्राफ़ दिखाएं</string>
+
+    <string name="correct_user_name">सही उपयोगकर्ता नाम और पासवर्ड दर्ज करें</string>
+    <string name="login">लॉग इन करें</string>
+
+    <string name="male">पुरूष </string>
+    <string name="female">महिला</string>
+
+    <string name="red_flag_question"> रेड फ्लैग सवाल</string>
+    <string name="consult">तुरंत चिकित्सक से परामर्श लें</string>
+
+    <string name="prescrption">डॉक्टर द्वारा पर्चे</string>
+
+
+    <array name="drug_headache">
+        <item>इबुप्रोफेन</item>
+        <item>नेपरोक्सन</item>
+    </array>
+    <array name="drug_pneumonia">
+        <item>Bactrim डी एस</item>
+        <item>Biaxin</item>
+    </array>
+    <array name="drug_body_pain">
+        <item>एसिटामिनोफेन</item>
+        <item>इबुप्रोफेन</item>
+        <item>नेपरोक्सन</item>
+    </array>
+    <string name="note">लेबल निर्देश के लिए या अपने चिकित्सक की सिफारिश के अनुसार अनुसार इन दवाओं का प्रयोग करें।</string>
+    <array name="drug_fever">
+        <item>एसिटामिनोफेन</item>
+        <item>इबुप्रोफेन</item>
+    </array>
+
+    <string name="print">छाप</string>
+    <string name="download">डाउनलोड</string>
+    <string name="sms_emergency_contact">एसएमएस आपातकालीन संपर्क</string>
+    <string name="find_ambulance">एम्बुलेंस खोज</string>
+    <string name="call_emergency_contact">कॉल आपातकालीन संपर्क</string>
+
+    <string name="exit">बाहर जाएं</string>
+    <string name="day_time">दिन में दो बार</string>
+    <string name="save">बचाया</string>
+    <string name="age_error_msg">अपनी उम्र का चयन करें</string>
+    <string name="place_error_msg">कृपया अपनी जगह का चयन</string>
+    <string name="details_error_msg">पूरा विवरण दर्ज करें</string>
+    <string name="title_activity_register_patient">रजिस्टर रोगी</string>
+    <string name="title_activity_home">प्राथमिक चिकित्सा</string>
+    <string name="title_activity_choose_disease">रोग चुनें</string>
+    <string name="title_ativity_second_diagnostic">निदान</string>
+    <string name="title_activity_prescription">पर्चे</string>
+    <string name="hint_enter_password">पास वर्ड दर्ज करें</string>
+
+   <!-- <string name="validation_message_login">यूजर आईडी दर्ज करें!</string>
+    <string name="validation_login_auth_fail">प्रमाणीकरण विफल होना</string>
+    <string name="msg_progress_dialog">कृपया प्रतीक्षा करें!</string>-->
+
+
+
+
+    <string name="Batra">चिकित्सक बत्रा</string>
+    <string name="Batra_add">दिल्ली</string>
+    <string name="Batra_qua">BHMS</string>
+
+    <string name="PuneetRajput">चिकित्सक पुनीत राजपूत</string>
+    <string name="PuneetRajput_add">दिल्ली</string>
+    <string name="PuneetRajpu_qua1">MBBS</string>
+    <string name="Puneetrajput_qua2">DNB</string>
+
+    <string name="AnilKochar">चिकित्सक अनिल कोचर</string>
+    <string name="AnilKochar_add">फरीदाबाद</string>
+    <string name="AnilKochar_qua1">BDS</string>
+
+
+    <string name="DKChhabra">चिकित्सक डी कश्मीर छाबड़ा</string>
+    <string name="DKChhabra_add">रायपुर</string>
+    <string name="DKChhabra_qua1">MBBS</string>
+    <string name="DKChhabra_qua2">MS_Neuro Surgery</string>
+
+
+    <string name="AkhilAgarwal">अखिल अग्रवाल</string>
+    <string name="AkhilAgarwal_add">लखनऊ</string>
+    <string name="AkhilAgarwal_qua1">BDS</string>
+    <string name="AkhilAgarwal_qua2">MDS</string>
+
+
+    <string name="RitwizBihari">Ritwiz बिहारी</string>
+    <string name="RitwizBihari_add">पटना</string>
+    <string name="RitwizBihari_qua1">MBBS</string>
+    <string name="RitwizBihari_qua2">MD</string>
+    <string name="RitwizBihari_qua3">DM - Neurology</string>
+    <string name="qty">"मात्रा"</string>
+    <string name="doctor">चिकित्सक</string>
+
+</resources>

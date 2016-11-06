@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.geek.firstaid.activities.HomeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ic_bg"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:paddingTop="55dp"
+            android:src="@drawable/ic_logo" />
+
+        <Button
+            android:id="@+id/button_place"
+            style="?android:attr/spinnerStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="50dp"
+            android:background="@drawable/edit_text_bg"
+            android:drawableLeft="@drawable/ic_location"
+            android:drawablePadding="10dp"
+            android:drawableRight="@drawable/dropdown_arrow"
+            android:minHeight="@dimen/button_min_height"
+            android:onClick="onEnglishTap"
+            android:paddingLeft="20dp"
+            android:paddingRight="15dp"
+            android:text="Select your location"
+            android:textColor="@android:color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="15dp"
+            android:splitMotionEvents="false"
+            android:orientation="horizontal"
+            android:paddingBottom="50dp">
+
+            <Button
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_bg"
+                android:minHeight="@dimen/button_min_height"
+                android:onClick="onEnglishTap"
+                android:text="English"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <Button
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_bg_blue"
+                android:minHeight="@dimen/button_min_height"
+                android:onClick="onHindiTap"
+                android:text="हिंदी"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

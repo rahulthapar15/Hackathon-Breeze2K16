@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="vertical"
+              android:weightSum="-1"
+              android:background="@color/white"
+              tools:context=".activities.ChooseDiseaseActivity">
+
+    <include
+        android:id="@+id/toolbar_settings"
+        layout="@layout/toolbar"/>
+
+    <TextView android:text="#1" android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/plate_number"
+              android:layout_alignParentTop="true"
+              android:layout_centerHorizontal="true"
+              android:textSize="25dp"
+              android:textColor="#93f6f6f6" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:id="@+id/ans1"
+        android:layout_below="@+id/plate"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/unsure"
+        android:onClick="SubmitAnswer"
+        android:text="12"
+        android:textSize="18dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:id="@+id/ans2"
+        android:layout_below="@+id/plate"
+        android:layout_centerHorizontal="true"
+        android:onClick="SubmitAnswer"
+        android:text="10"
+        android:textSize="18dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+
+        android:id="@+id/ans3"
+        android:layout_alignTop="@+id/ans2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="SubmitAnswer"
+        android:text="11"
+        android:textSize="18dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="Unsure"
+        android:id="@+id/unsure"
+        android:background="@drawable/button_bg_blue"
+        android:onClick="SubmitAnswer"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/ans2"
+        android:layout_toLeftOf="@+id/ans2"
+        android:layout_toStartOf="@+id/ans2" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="No Number"
+        android:id="@+id/nothing"
+        android:singleLine="true"
+        android:background="@drawable/button_bg_blue"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"
+        android:onClick="SubmitAnswer"
+        android:textSize="18dp"
+        android:layout_alignTop="@+id/unsure"
+        android:layout_toRightOf="@+id/plate_number"
+        android:layout_toEndOf="@+id/plate_number" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:id="@+id/plate"
+        android:src="@drawable/plate1"
+        android:adjustViewBounds="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:layout_below="@+id/stop" />
+
+   <!-- <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="stop"
+        android:id="@+id/stop"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="24dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reset"
+        android:id="@+id/reset"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:onClick="reset"
+        android:layout_alignParentEnd="true"
+        android:textSize="24dp" />-->
+
+
+</LinearLayout>
